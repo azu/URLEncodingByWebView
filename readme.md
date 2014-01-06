@@ -2,6 +2,13 @@ POC to [古来よりobjcプログラマはstringByAddingPercentEscapesUsingEncod
 
 ### XSS
 
+``` objc
+- (void)testScriptInjection{
+    NSString *script = @"\"+alert(1)+\"";
+    [URLEncoding URLWithUnescapedString:script];
+}
+```
+
 JavaScriptのコンテキストで安全かどうかを別途検証が必要になるので、
 正しいエスケープ方法かJavaScriptを実行されても問題がない状況が必要となる。
 
