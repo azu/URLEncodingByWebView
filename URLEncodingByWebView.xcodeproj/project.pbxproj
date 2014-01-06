@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C1585ADBC6954D429B42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C7AE27B3E610DC0D3FAF /* Images.xcassets */; };
+		17B5C1FB4A0180BD58CD1C62 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8B84F37A15D4C1AC0CA /* Main_iPad.storyboard */; };
+		17B5C2F4AC2C9CA6CF51EAAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C62A8472556E65809D0E /* XCTest.framework */; };
+		17B5C2FB7B5805BE32929DB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CDE4336F6EB13152C2C6 /* ViewController.m */; };
+		17B5C55E48A75C98F1FA8A32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CCBF4571A562FA2F6D6F /* AppDelegate.m */; };
+		17B5C5D16E3F092B51BFC1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CB8FC82830F712F0E5BA /* Foundation.framework */; };
+		17B5C5DC393ECA8754D1827B /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CADBE28D2CC6FABAD6C5 /* readme.md */; };
+		17B5C63240E8D24D2985CF89 /* URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CC913064C6DA55151A78 /* URLEncoding.m */; };
+		17B5CA09BBF9EF3E8988471B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C0C2AE6235B24A8A7287 /* InfoPlist.strings */; };
+		17B5CA25CC9B8B9ADCB8E879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CB8FC82830F712F0E5BA /* Foundation.framework */; };
+		17B5CA41566BABF4B11E4C2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C05A351DBB66B5116E91 /* main.m */; };
+		17B5CB89E2BFF574C867FCD8 /* URLEncodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C903DD09C3BE7BB91ABD /* URLEncodingTest.m */; };
+		17B5CC0B959793B59005705D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CEC9C5F17F85A92BAC52 /* UIKit.framework */; };
+		17B5CCD42AC73A9F755473B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C11DF0DBEEAED3B2C5F2 /* InfoPlist.strings */; };
+		17B5CCED80D1C3AE4637DE0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CD253EC288E1043D6584 /* CoreGraphics.framework */; };
+		17B5CD4F524830D8260845B4 /* URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CC913064C6DA55151A78 /* URLEncoding.m */; };
+		17B5CE27BCF13FF8294B3742 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C4B24E38CAF39D2A2900 /* Main_iPhone.storyboard */; };
+		17B5CE5D3FF9608C6AE208FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CEC9C5F17F85A92BAC52 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5CB0F7FE5596283C7B3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C07A67D4A3613BEEB432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C461FC3B3BA744260465;
+			remoteInfo = URLEncodingByWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B5C05A351DBB66B5116E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5C09EA72D928AD12EA7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		17B5C0D22D6D92F7A02AA20F /* URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLEncoding.h; sourceTree = "<group>"; };
+		17B5C2FA3E7A3FB932EA5824 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5C44B1C6838C09BF63188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C62A8472556E65809D0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17B5C6656D8E7D614431F879 /* URLEncodingByWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLEncodingByWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C6AA3B393160A38820ED /* URLEncodingByWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLEncodingByWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C6BB4C3F45098D471603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C7AE27B3E610DC0D3FAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17B5C85586B267D7F5F83C46 /* URLEncodingByWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "URLEncodingByWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		17B5C903DD09C3BE7BB91ABD /* URLEncodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLEncodingTest.m; sourceTree = "<group>"; };
+		17B5C9AF38075F02BCD44D2F /* URLEncodingByWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "URLEncodingByWebView-Info.plist"; sourceTree = "<group>"; };
+		17B5CADBE28D2CC6FABAD6C5 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5CB8FC82830F712F0E5BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5CBC9419C541473B037FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		17B5CC913064C6DA55151A78 /* URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLEncoding.m; sourceTree = "<group>"; };
+		17B5CCBF4571A562FA2F6D6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5CD253EC288E1043D6584 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5CD3678A2A27382FBB404 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17B5CDE4336F6EB13152C2C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17B5CEC9C5F17F85A92BAC52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5CEEF3BA0B35955D028F6 /* URLEncodingByWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLEncodingByWebView-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C76E2CE053846BDAAF3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C5D16E3F092B51BFC1FC /* Foundation.framework in Frameworks */,
+				17B5CCED80D1C3AE4637DE0C /* CoreGraphics.framework in Frameworks */,
+				17B5CC0B959793B59005705D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CF9C85362CC9E2B250FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C2F4AC2C9CA6CF51EAAD /* XCTest.framework in Frameworks */,
+				17B5CA25CC9B8B9ADCB8E879 /* Foundation.framework in Frameworks */,
+				17B5CE5D3FF9608C6AE208FD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C0EEC96E653E42018506 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C9AF38075F02BCD44D2F /* URLEncodingByWebView-Info.plist */,
+				17B5C0C2AE6235B24A8A7287 /* InfoPlist.strings */,
+				17B5C05A351DBB66B5116E91 /* main.m */,
+				17B5CEEF3BA0B35955D028F6 /* URLEncodingByWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C46858D881B59D16BFDB /* URLEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CC913064C6DA55151A78 /* URLEncoding.m */,
+				17B5C0D22D6D92F7A02AA20F /* URLEncoding.h */,
+			);
+			path = URLEncoding;
+			sourceTree = "<group>";
+		};
+		17B5C4E6D8B4CC5B7BECB68B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C85586B267D7F5F83C46 /* URLEncodingByWebViewTests-Info.plist */,
+				17B5C11DF0DBEEAED3B2C5F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C5D9AEE3F29DC70D2BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C6656D8E7D614431F879 /* URLEncodingByWebView.app */,
+				17B5C6AA3B393160A38820ED /* URLEncodingByWebViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5C77CC5BC5DC8FDF4D45D = {
+			isa = PBXGroup;
+			children = (
+				17B5C5D9AEE3F29DC70D2BAD /* Products */,
+				17B5CA74EB60DE3890779168 /* Frameworks */,
+				17B5C79EC0335DE59C255F0B /* URLEncodingByWebView */,
+				17B5CC8ABB31F895796C1200 /* URLEncodingByWebViewTests */,
+				17B5C46858D881B59D16BFDB /* URLEncoding */,
+				17B5CADBE28D2CC6FABAD6C5 /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5C79EC0335DE59C255F0B /* URLEncodingByWebView */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C0EEC96E653E42018506 /* Supporting Files */,
+				17B5C2FA3E7A3FB932EA5824 /* AppDelegate.h */,
+				17B5CCBF4571A562FA2F6D6F /* AppDelegate.m */,
+				17B5C7AE27B3E610DC0D3FAF /* Images.xcassets */,
+				17B5C4B24E38CAF39D2A2900 /* Main_iPhone.storyboard */,
+				17B5C8B84F37A15D4C1AC0CA /* Main_iPad.storyboard */,
+				17B5CD3678A2A27382FBB404 /* ViewController.h */,
+				17B5CDE4336F6EB13152C2C6 /* ViewController.m */,
+			);
+			path = URLEncodingByWebView;
+			sourceTree = "<group>";
+		};
+		17B5CA74EB60DE3890779168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CB8FC82830F712F0E5BA /* Foundation.framework */,
+				17B5CD253EC288E1043D6584 /* CoreGraphics.framework */,
+				17B5CEC9C5F17F85A92BAC52 /* UIKit.framework */,
+				17B5C62A8472556E65809D0E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CC8ABB31F895796C1200 /* URLEncodingByWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C4E6D8B4CC5B7BECB68B /* Supporting Files */,
+				17B5C903DD09C3BE7BB91ABD /* URLEncodingTest.m */,
+			);
+			path = URLEncodingByWebViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C461FC3B3BA744260465 /* URLEncodingByWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CE49C30030A4F9687259 /* Build configuration list for PBXNativeTarget "URLEncodingByWebView" */;
+			buildPhases = (
+				17B5CA353F0EE7DD9CB53433 /* Sources */,
+				17B5C76E2CE053846BDAAF3D /* Frameworks */,
+				17B5CF7BD3A16C0E9D6CE7AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLEncodingByWebView;
+			productName = URLEncodingByWebView;
+			productReference = 17B5C6656D8E7D614431F879 /* URLEncodingByWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17B5CFFBC12A4F73872BDF85 /* URLEncodingByWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C21ED116B5C49448DAA3 /* Build configuration list for PBXNativeTarget "URLEncodingByWebViewTests" */;
+			buildPhases = (
+				17B5CE91B0D0D19BCB07E3D6 /* Sources */,
+				17B5CF9C85362CC9E2B250FF /* Frameworks */,
+				17B5C33B98AA3C3480127F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5CE2612A28B9D88E0A88B /* PBXTargetDependency */,
+			);
+			name = URLEncodingByWebViewTests;
+			productName = URLEncodingByWebViewTests;
+			productReference = 17B5C6AA3B393160A38820ED /* URLEncodingByWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C07A67D4A3613BEEB432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+				TargetAttributes = {
+					17B5CFFBC12A4F73872BDF85 = {
+						TestTargetID = 17B5C461FC3B3BA744260465;
+					};
+				};
+			};
+			buildConfigurationList = 17B5C7B81A780F36F18572ED /* Build configuration list for PBXProject "URLEncodingByWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C77CC5BC5DC8FDF4D45D;
+			productRefGroup = 17B5C5D9AEE3F29DC70D2BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5C461FC3B3BA744260465 /* URLEncodingByWebView */,
+				17B5CFFBC12A4F73872BDF85 /* URLEncodingByWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C33B98AA3C3480127F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CCD42AC73A9F755473B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CF7BD3A16C0E9D6CE7AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CA09BBF9EF3E8988471B /* InfoPlist.strings in Resources */,
+				17B5C1585ADBC6954D429B42 /* Images.xcassets in Resources */,
+				17B5CE27BCF13FF8294B3742 /* Main_iPhone.storyboard in Resources */,
+				17B5C1FB4A0180BD58CD1C62 /* Main_iPad.storyboard in Resources */,
+				17B5C5DC393ECA8754D1827B /* readme.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5CA353F0EE7DD9CB53433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CA41566BABF4B11E4C2B /* main.m in Sources */,
+				17B5C55E48A75C98F1FA8A32 /* AppDelegate.m in Sources */,
+				17B5C2FB7B5805BE32929DB1 /* ViewController.m in Sources */,
+				17B5CD4F524830D8260845B4 /* URLEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CE91B0D0D19BCB07E3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CB89E2BFF574C867FCD8 /* URLEncodingTest.m in Sources */,
+				17B5C63240E8D24D2985CF89 /* URLEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5CE2612A28B9D88E0A88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C461FC3B3BA744260465 /* URLEncodingByWebView */;
+			targetProxy = 17B5CB0F7FE5596283C7B3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C0C2AE6235B24A8A7287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C44B1C6838C09BF63188 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C11DF0DBEEAED3B2C5F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C6BB4C3F45098D471603 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C4B24E38CAF39D2A2900 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C09EA72D928AD12EA7EE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		17B5C8B84F37A15D4C1AC0CA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5CBC9419C541473B037FD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C916C85691A7A20743F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/URLEncodingByWebView.app/URLEncodingByWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLEncodingByWebView/URLEncodingByWebView-Prefix.pch";
+				INFOPLIST_FILE = "URLEncodingByWebViewTests/URLEncodingByWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		17B5C997299E31B381662650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/URLEncodingByWebView.app/URLEncodingByWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLEncodingByWebView/URLEncodingByWebView-Prefix.pch";
+				INFOPLIST_FILE = "URLEncodingByWebViewTests/URLEncodingByWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17B5CA00A82FD4F467B007ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLEncodingByWebView/URLEncodingByWebView-Prefix.pch";
+				INFOPLIST_FILE = "URLEncodingByWebView/URLEncodingByWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17B5CC61BFFD5B6BEF93C199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLEncodingByWebView/URLEncodingByWebView-Prefix.pch";
+				INFOPLIST_FILE = "URLEncodingByWebView/URLEncodingByWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5CE63444DD9B712E1BBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17B5CFA71176691DD024D930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C21ED116B5C49448DAA3 /* Build configuration list for PBXNativeTarget "URLEncodingByWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C916C85691A7A20743F0 /* Release */,
+				17B5C997299E31B381662650 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C7B81A780F36F18572ED /* Build configuration list for PBXProject "URLEncodingByWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CFA71176691DD024D930 /* Release */,
+				17B5CE63444DD9B712E1BBE7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5CE49C30030A4F9687259 /* Build configuration list for PBXNativeTarget "URLEncodingByWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CC61BFFD5B6BEF93C199 /* Release */,
+				17B5CA00A82FD4F467B007ED /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C07A67D4A3613BEEB432 /* Project object */;
+}
